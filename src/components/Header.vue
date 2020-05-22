@@ -15,7 +15,7 @@ header {
   margin: 0 0 16 * $unit 0;
 
   h1 {
-    margin: $unit 0 0 $unit;
+    margin: 2 * $unit 0 0 2 * $unit;
   }
 }
 </style>

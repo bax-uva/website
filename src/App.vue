@@ -1,10 +1,13 @@
 <template>
   <div id="app">
     <Header />
-    <Nav />
-    <About />
-    <Work />
-    <Contact />
+    <Nav :sections="sections" :activeSection="activeSection" />
+    <About :activeSection="activeSection" v-show="activeSection == 'about'" />
+    <Work :activeSection="activeSection" v-show="activeSection == 'work'" />
+    <Contact
+      :activeSection="activeSection"
+      v-show="activeSection == 'contact'"
+    />
   </div>
 </template>
 
@@ -23,6 +26,12 @@ export default {
     About,
     Work,
     Contact
+  },
+  data: () => {
+    return {
+      sections: ["about", "work", "contact"],
+      activeSection: "work"
+    };
   }
 };
 </script>
@@ -53,12 +62,13 @@ h3,
 h4 {
   margin: 0;
   line-height: 100%;
+  font-weight: lighter;
 }
 h1 {
   font-size: 3 * $unit;
 }
 h2 {
-  font-size: 5 * $unit;
+  font-size: 4 * $unit;
 }
 
 h4 {
@@ -70,13 +80,16 @@ p {
   line-height: 140%;
 }
 a,
-a:active,
-a:hover {
+a:active {
   color: $link-light;
   text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
+
 section {
   width: 80%;
-  margin: 2 * $unit auto;
+  margin: 4 * $unit auto;
 }
 </style>

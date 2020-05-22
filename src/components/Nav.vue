@@ -1,7 +1,11 @@
 <template>
   <nav>
-    <NavButton />
-    <NavButton />
+    <NavButton
+      v-for="section in sections"
+      v-bind:key="section"
+      :title="section"
+      :activeSection="activeSection"
+    />
     <NavButton />
   </nav>
 </template>
@@ -10,6 +14,7 @@
 import NavButton from "./NavButton.vue";
 export default {
   name: "Nav",
+  props: ["sections", "activeSection"],
   components: { NavButton }
 };
 </script>
