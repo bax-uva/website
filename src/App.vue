@@ -38,15 +38,45 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#app {
+  display: flex;
+  flex-direction: column;
+}
 h1,
 h2 {
   font-family: $identity-txt;
   color: $primary-light;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  line-height: 100%;
+}
+h1 {
+  font-size: 3 * $unit;
+}
+h2 {
+  font-size: 5 * $unit;
+}
+
+h4 {
+  font-size: 2.5 * $unit;
+}
+p {
+  margin: 0;
+  font-size: 2 * $unit;
+  line-height: 140%;
 }
 a,
 a:active,
 a:hover {
   color: $link-light;
   text-decoration: none;
+}
+section {
+  width: 80%;
+  margin: 2 * $unit auto;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <h2>NavButton title</h2>
+  <h2>btitle</h2>
 </template>
 
 <script>

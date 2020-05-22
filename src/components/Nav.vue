@@ -13,3 +13,11 @@ export default {
   components: { NavButton }
 };
 </script>
+<style lang="scss">
+nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+</style>

@@ -6,7 +6,9 @@
       delectus nisi repellendus soluta laborum distinctio reprehenderit totam
       assumenda, voluptatum, incidunt ipsum natus!
     </p>
-    <div class="projects-wrapper"><Project /> <Project /></div>
+    <div class="projects-wrapper">
+      <Project /> <Project /><Project /> <Project />
+    </div>
   </section>
 </template>
 
@@ -19,3 +21,8 @@ export default {
   }
 };
 </script>
+<style lang="scss">
+.projects-wrapper {
+  margin-top: 4 * $unit;
+}
+</style>
