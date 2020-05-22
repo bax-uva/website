@@ -7,7 +7,14 @@
       assumenda, voluptatum, incidunt ipsum natus!
     </p>
     <div class="projects-wrapper">
-      <Project /> <Project /><Project /> <Project />
+      <Project
+        v-for="project in projects"
+        v-bind:key="project"
+        :title="project.title"
+        :link="project.link"
+        :description="project.description"
+        :github="project.githubRepo"
+      />
     </div>
   </section>
 </template>
@@ -16,6 +23,7 @@
 import Project from "./Project.vue";
 export default {
   name: "Work",
+  props: ["projects"],
   components: {
     Project
   }

@@ -1,13 +1,17 @@
 <template>
   <article class="portfolio-project">
     <div class="project-txt">
-      <h4><a href="#">Project title</a></h4>
+      <h4>
+        <a :href="link">{{ title }}</a>
+      </h4>
       <p>
-        Project description Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Dolores alias enim veritatis debitis corporis omnis perspiciatis
-        delectus facere aut dolores ipsam.
+        {{ description }}
       </p>
-      <p><a href="#">View project on Github</a></p>
+      <p v-show="github">
+        <a :href="`https://github.com/bax-uva/${github}`"
+          >View project on Github</a
+        >
+      </p>
     </div>
     <img src="https://via.placeholder.com/150" alt="" />
   </article>
@@ -15,7 +19,8 @@
 
 <script>
 export default {
-  name: "Project"
+  name: "Project",
+  props: ["title", "link", "description", "github"]
 };
 </script>
 <style lang="scss">

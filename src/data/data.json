@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Jaxona",
+    "link": "https://jaxona.herokuapp.com/",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit necessitatibus, quo libero non earum cumque, quasi animi cum facilis vero. Perferendis iure labore alias non quaerat eaque dolorem explicabo error!",
+    "githubRepo": "jaxona",
+    "image": ""
+  },
+  {
+    "title": "Moige",
+    "link": "https://moige-the-oracle.herokuapp.com/",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam natus consequatur quibusdam sapiente nostrum reiciendis dignissimos amet, eos incidunt ipsam doloremque consequuntur dolor, veritatis enim eius ducimus modi officia numquam.",
+    "githubRepo": "moige-the-oracle",
+    "image": ""
+  },
+
+  {
+    "title": "Aline Baiana",
+    "link": "https://www.alinebaiana.com/",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "githubRepo": "",
+    "image": ""
+  },
+  {
+    "title": "Die Wilde Jagd",
+    "link": "https://diewildejagd.com/",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "githubRepo": "die-wilde-jagd",
+    "image": ""
+  },
+  {
+    "title": "É",
+    "link": "https://bax-uva.github.io/loja-E/",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "githubRepo": "loja-E",
+    "image": ""
+  },
+  {
+    "title": "Fantasmas",
+    "link": "https://bax-uva.github.io/fantasmas/",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "githubRepo": "fantasmas",
+    "image": ""
+  }
+]

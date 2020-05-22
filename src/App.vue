@@ -3,7 +3,11 @@
     <Header />
     <Nav :sections="sections" :activeSection="activeSection" />
     <About :activeSection="activeSection" v-show="activeSection == 'about'" />
-    <Work :activeSection="activeSection" v-show="activeSection == 'work'" />
+    <Work
+      :projects="projects"
+      :activeSection="activeSection"
+      v-show="activeSection == 'work'"
+    />
     <Contact
       :activeSection="activeSection"
       v-show="activeSection == 'contact'"
@@ -12,6 +16,7 @@
 </template>
 
 <script>
+import projects from "./data/data.json";
 import Header from "./components/Header.vue";
 import Nav from "./components/Nav.vue";
 import About from "./components/About.vue";
@@ -29,6 +34,7 @@ export default {
   },
   data: () => {
     return {
+      projects,
       sections: ["about", "work", "contact"],
       activeSection: "work"
     };
@@ -65,7 +71,7 @@ h4 {
   font-weight: lighter;
 }
 h1 {
-  font-size: 3 * $unit;
+  font-size: 2.6 * $unit;
 }
 h2 {
   font-size: 4 * $unit;
