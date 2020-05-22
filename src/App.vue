@@ -27,13 +27,26 @@ export default {
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+<style lang="scss">
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: $background-dark;
+  color: $text-light;
+  font-family: $body-txt;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+h1,
+h2 {
+  font-family: $identity-txt;
+  color: $primary-light;
+}
+a,
+a:active,
+a:hover {
+  color: $link-light;
+  text-decoration: none;
 }
 </style>

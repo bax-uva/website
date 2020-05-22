@@ -1,7 +1,7 @@
 <template>
   <section class="contact">
-    <p>Email: bax.uva@gmail.com</p>
-    <p>On Github: github.com/bax-uva</p>
+    <p><a href="#">Email: bax.uva@gmail.com</a></p>
+    <p><a href="">On Github: github.com/bax-uva</a></p>
   </section>
 </template>
 
