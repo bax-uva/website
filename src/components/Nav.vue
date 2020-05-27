@@ -30,5 +30,11 @@ nav {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  @media #{$tablet} {
+    width: 45%;
+  }
+  @media #{$desktop} {
+    width: 40%;
+  }
 }
 </style>

@@ -17,4 +17,8 @@ export default {
   name: "About"
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+.about {
+  // text-align: justify;
+}
+</style>

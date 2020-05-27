@@ -12,8 +12,13 @@ export default {
 <style lang="scss">
 header {
   display: flex;
-  margin: 0 0 16 * $unit 0;
-
+  height: 16 * $unit;
+  @media #{$tablet} {
+    height: 22 * $unit;
+  }
+  @media #{$desktop} {
+    height: 24 * $unit;
+  }
   h1 {
     margin: 2 * $unit 0 0 2 * $unit;
   }

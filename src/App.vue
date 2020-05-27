@@ -81,20 +81,32 @@ h4 {
 }
 h1 {
   font-size: 2.6 * $unit;
+  @media #{$desktop} {
+    font-size: 3 * $unit;
+  }
 }
 h2 {
   font-size: 4 * $unit;
+  @media #{$tablet} {
+    font-size: 4.7 * $unit;
+  }
+  @media #{$desktop} {
+    font-size: 6.2 * $unit;
+  }
 }
-button {
-  background: white;
-}
+
 h4 {
   font-size: 2.5 * $unit;
 }
 p {
   margin: 0;
   font-size: 2 * $unit;
-  line-height: 140%;
+  line-height: 150%;
+
+  @media #{$desktop} {
+    font-size: 2.2 * $unit;
+    line-height: 160%;
+  }
 }
 a,
 a:active {
@@ -104,9 +116,17 @@ a:active {
     text-decoration: underline;
   }
 }
-
 section {
   width: 80%;
-  margin: 4 * $unit auto;
+  margin: 8 * $unit auto;
+
+  @media #{$tablet} {
+    width: 45%;
+    margin: 10 * $unit auto;
+  }
+  @media #{$desktop} {
+    width: 40%;
+    margin: 12 * $unit auto;
+  }
 }
 </style>

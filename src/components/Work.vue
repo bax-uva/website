@@ -30,7 +30,9 @@ export default {
 };
 </script>
 <style lang="scss">
-.projects-wrapper {
-  margin-top: 4 * $unit;
+.work {
+  .projects-wrapper {
+    margin-top: 4 * $unit;
+  }
 }
 </style>
