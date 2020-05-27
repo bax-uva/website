@@ -9,7 +9,7 @@
     <div class="projects-wrapper">
       <Project
         v-for="project in projects"
-        v-bind:key="project"
+        v-bind:key="project.title"
         :title="project.title"
         :link="project.link"
         :description="project.description"

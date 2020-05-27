@@ -5,6 +5,7 @@
       v-bind:key="section"
       :title="section"
       :activeSection="activeSection"
+      @button-title="sendBtnTitle"
     />
     <NavButton />
   </nav>
@@ -15,7 +16,12 @@ import NavButton from "./NavButton.vue";
 export default {
   name: "Nav",
   props: ["sections", "activeSection"],
-  components: { NavButton }
+  components: { NavButton },
+  methods: {
+    sendBtnTitle(btntitle) {
+      this.$emit("section-clicked", btntitle);
+    }
+  }
 };
 </script>
 <style lang="scss">

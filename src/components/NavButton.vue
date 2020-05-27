@@ -1,5 +1,8 @@
 <template>
-  <h2>
+  <h2
+    :class="title == activeSection ? 'active' : 'inactive'"
+    @click="sectionClicked"
+  >
     {{ title }}
   </h2>
 </template>
@@ -8,14 +11,22 @@
 export default {
   name: "NavButton",
   props: ["title", "activeSection"],
-  data: () => {
-    return {
-      isActive: false
-    };
-  },
   methods: {
-    updateSection() {}
+    sectionClicked() {
+      this.$emit("button-title", this.title);
+    }
   }
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+h2 {
+  font-weight: lighter;
+  cursor: pointer;
+}
+.active {
+  text-decoration: underline;
+}
+.inactive {
+  text-decoration: none;
+}
+</style>

@@ -1,7 +1,11 @@
 <template>
   <div id="app">
     <Header />
-    <Nav :sections="sections" :activeSection="activeSection" />
+    <Nav
+      :sections="sections"
+      :activeSection="activeSection"
+      @section-clicked="updateSection"
+    />
     <About :activeSection="activeSection" v-show="activeSection == 'about'" />
     <Work
       :projects="projects"
@@ -36,8 +40,13 @@ export default {
     return {
       projects,
       sections: ["about", "work", "contact"],
-      activeSection: "work"
+      activeSection: " "
     };
+  },
+  methods: {
+    updateSection(section) {
+      this.activeSection = section;
+    }
   }
 };
 </script>
@@ -76,7 +85,9 @@ h1 {
 h2 {
   font-size: 4 * $unit;
 }
-
+button {
+  background: white;
+}
 h4 {
   font-size: 2.5 * $unit;
 }
