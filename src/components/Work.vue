@@ -14,6 +14,7 @@
         :link="project.link"
         :description="project.description"
         :github="project.githubRepo"
+        :image="project.image"
       />
     </div>
   </section>

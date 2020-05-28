@@ -13,14 +13,14 @@
         >
       </p>
     </div>
-    <img src="https://via.placeholder.com/150" alt="" />
+    <img src="../assets/projects/baianaPB.png" alt="" />
   </article>
 </template>
 
 <script>
 export default {
   name: "Project",
-  props: ["title", "link", "description", "github"]
+  props: ["title", "link", "description", "github", "image"]
 };
 </script>
 <style lang="scss">
@@ -33,7 +33,7 @@ article {
     flex-direction: column;
   }
   .project-txt {
-    width: 65%;
+    width: 55%;
 
     @media #{$desktop} {
       width: 100%;
@@ -50,7 +50,10 @@ article {
   }
 
   img {
-    width: 30%;
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    object-position: center top;
     @media #{$desktop} {
       width: 100%;
     }
