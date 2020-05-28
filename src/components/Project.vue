@@ -2,18 +2,18 @@
   <article class="portfolio-project">
     <div class="project-txt">
       <h4>
-        <a :href="link">{{ title }}</a>
+        <a target="_blank" :href="link">{{ title }}</a>
       </h4>
       <p>
         {{ description }}
       </p>
       <p v-show="github">
-        <a :href="`https://github.com/bax-uva/${github}`"
+        <a target="_blank" :href="`https://github.com/bax-uva/${github}`"
           >View project on Github</a
         >
       </p>
     </div>
-    <img src="../assets/projects/baianaPB.png" alt="" />
+    <img :src="require(`../assets/projects/${image}`)" alt="" />
   </article>
 </template>
 
@@ -31,6 +31,7 @@ article {
 
   @media #{$desktop} {
     flex-direction: column;
+    margin: 10 * $unit 0 0 0;
   }
   .project-txt {
     width: 55%;
@@ -56,6 +57,7 @@ article {
     object-position: center top;
     @media #{$desktop} {
       width: 100%;
+      height: 150px;
     }
   }
   &:nth-child(even) {
