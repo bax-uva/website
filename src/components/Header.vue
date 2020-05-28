@@ -11,6 +11,7 @@ export default {
 </script>
 <style lang="scss">
 header {
+  z-index: 1;
   display: flex;
   height: 16 * $unit;
   @media #{$tablet} {

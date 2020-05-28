@@ -26,6 +26,7 @@ export default {
 </script>
 <style lang="scss">
 nav {
+  z-index: 1;
   width: 80%;
   margin: auto;
   display: flex;

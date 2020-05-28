@@ -2,14 +2,14 @@
   {
     "title": "Jaxona",
     "link": "https://jaxona.herokuapp.com/",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit necessitatibus, quo libero non earum cumque, quasi animi cum facilis vero. Perferendis iure labore alias non quaerat eaque dolorem explicabo error!",
+    "description": "Jaxona is a project for a jokes database. It's a React Web Application and at the moment more features are being implemented on it. Design and Web Development by Bax Uva.",
     "githubRepo": "jaxona",
     "image": "jaxona.png"
   },
   {
     "title": "Moige",
     "link": "https://moige-the-oracle.herokuapp.com/",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam natus consequatur quibusdam sapiente nostrum reiciendis dignissimos amet, eos incidunt ipsam doloremque consequuntur dolor, veritatis enim eius ducimus modi officia numquam.",
+    "description": "Moige is a fun oracle that helps you when you don't know what to wear. Each realoading gives you a a final group of items you should wear. It is a Vue Web Application. Design and Web Development by Bax Uva.",
     "githubRepo": "moige-the-oracle",
     "image": "moige.png"
   },
@@ -17,28 +17,28 @@
   {
     "title": "Aline Baiana",
     "link": "https://www.alinebaiana.com/",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Aline Baiana is a visual artist based in Berlin and this is her portfolio made with Wordpress CMS. Design and Web Development by Bax Uva and Marina Sarno.",
     "githubRepo": "",
     "image": "baiana.png"
   },
   {
     "title": "Die Wilde Jagd",
     "link": "https://diewildejagd.com/",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Die Wilde Jagd is the musical project of Sebastian Lee Philipp, artist based in Berlin. This is his personal website, made with HTML and CSS. Design by Sebastian Lee Philipp and Bax Uva. Web Development by Bax Uva.",
     "githubRepo": "die-wilde-jagd",
     "image": "DWJ.jpg"
   },
   {
     "title": "É",
     "link": "https://bax-uva.github.io/loja-E/",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "É is an independent publisher in São Paulo, Brazil. This is their catalog website, made with HTML and CSS. Web Design: Bax Uva and Júlia Rocha. Web Development: Bax Uva.",
     "githubRepo": "loja-E",
     "image": "loja-E.png"
   },
   {
     "title": "Fantasmas",
     "link": "https://bax-uva.github.io/fantasmas/",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Fantasmas is a web experiment, part of and containinhg Renata Passos' master thesis in Visual Arts. It's a website made with HTML and CSS. Web Design: Renata Passos and Bax Uva. Web Development: Bax Uva. Obs: it's for desktop format only.",
     "githubRepo": "fantasmas",
     "image": "fantasmas.jpg"
   }

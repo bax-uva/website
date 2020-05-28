@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Background />
     <Header />
     <Nav
       :sections="sections"
@@ -21,6 +22,7 @@
 
 <script>
 import projects from "./data/data.json";
+import Background from "./components/Background.vue";
 import Header from "./components/Header.vue";
 import Nav from "./components/Nav.vue";
 import About from "./components/About.vue";
@@ -30,6 +32,7 @@ import Contact from "./components/Contact.vue";
 export default {
   name: "App",
   components: {
+    Background,
     Header,
     Nav,
     About,
@@ -118,6 +121,7 @@ a:active {
 }
 section {
   width: 80%;
+  z-index: 1;
   margin: 8 * $unit auto;
 
   @media #{$tablet} {

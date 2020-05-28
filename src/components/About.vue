@@ -1,13 +1,18 @@
 <template>
   <section class="about">
     <p>
-      I'm a Frontend developer based in Berlin. As a freelancer I develop Web
-      Applications and websites in HTML, CSS, JavaScript, React.js, Wordpress
-      CMS, Vue.js.
+      I'm a Frontend developer based in Berlin.
     </p>
     <p>
-      I'm interested in open-source technologies, education, UX, and looking
-      forward to joining a nice team.
+      As a freelancer I develop Web Applications and websites in HTML, CSS,
+      SASS, JavaScript, React.js, Wordpress CMS, Vue.js.
+    </p>
+    <p>
+      I'm interested in open-source technologies, education, UX, and also work
+      as a mentor in Web Development for minorities in tech.
+    </p>
+    <p>
+      At the moment actively I'm looking for a nice development team to join.
     </p>
   </section>
 </template>

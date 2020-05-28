@@ -1,7 +1,14 @@
 <template>
   <section class="contact">
-    <p><a href="#">Email: bax.uva@gmail.com</a></p>
-    <p><a href="">On Github: github.com/bax-uva</a></p>
+    <p><a href="mailto:bax.uva@gmail.com">Email</a></p>
+    <p>
+      <a target="_blank" href="https://www.github.com/bax-uva">Github</a>
+    </p>
+    <p>
+      <a target="_blank" href="https://www.linkedin.com/in/gisele-nogueira/"
+        >LinkedIn</a
+      >
+    </p>
   </section>
 </template>
 
