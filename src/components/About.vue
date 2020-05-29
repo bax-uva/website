@@ -1,7 +1,7 @@
 <template>
   <section class="about">
     <p>
-      I'm a Frontend developer based in Berlin.
+      I'm a Frontend Web Developer based in Berlin.
     </p>
     <p>
       As a freelancer I develop Web Applications and websites in HTML, CSS,
@@ -12,7 +12,7 @@
       as a mentor in Web Development for minorities in tech.
     </p>
     <p>
-      At the moment actively I'm looking for a nice development team to join.
+      At the moment I'm actively looking for a nice development team to join.
     </p>
   </section>
 </template>

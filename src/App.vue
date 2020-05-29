@@ -89,12 +89,18 @@ h1 {
   }
 }
 h2 {
-  font-size: 4 * $unit;
+  font-size: 4.1 * $unit;
+  @media #{$mobileM} {
+    font-size: 4.8 * $unit;
+  }
+  @media #{$mobileL} {
+    font-size: 5.5 * $unit;
+  }
   @media #{$tablet} {
-    font-size: 4.7 * $unit;
+    font-size: 5.6 * $unit;
   }
   @media #{$desktop} {
-    font-size: 6.2 * $unit;
+    font-size: 6.5 * $unit;
   }
 }
 
@@ -102,6 +108,8 @@ h4 {
   font-size: 2.5 * $unit;
 }
 p {
+  text-align: justify;
+  text-justify: auto;
   margin: 0;
   font-size: 2 * $unit;
   line-height: 150%;
@@ -130,7 +138,7 @@ section {
   }
   @media #{$desktop} {
     width: 40%;
-    margin: 12 * $unit auto;
+    margin: 6 * $unit auto;
   }
 }
 </style>

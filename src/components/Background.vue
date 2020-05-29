@@ -1,7 +1,7 @@
 <template>
   <div class="background">
     <div
-      v-for="particle in 15"
+      v-for="particle in 25"
       :class="`particle p${particle}`"
       :key="particle"
       :style="{
@@ -29,8 +29,8 @@ export default {
 .particle {
   top: 0;
   left: 0;
-  width: 70px;
-  height: 130px;
+  width: 15px;
+  height: 190px;
   background-image: linear-gradient(
     to top,
     rgba(16, 100, 39, 0),
