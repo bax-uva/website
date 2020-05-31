@@ -89,12 +89,12 @@ h1 {
   }
 }
 h2 {
-  font-size: 4.1 * $unit;
+  font-size: 4.6 * $unit;
   @media #{$mobileM} {
-    font-size: 4.8 * $unit;
+    font-size: 5.4 * $unit;
   }
   @media #{$mobileL} {
-    font-size: 5.5 * $unit;
+    font-size: 6.3 * $unit;
   }
   @media #{$tablet} {
     font-size: 5.6 * $unit;
@@ -108,15 +108,18 @@ h4 {
   font-size: 2.5 * $unit;
 }
 p {
-  text-align: justify;
-  text-justify: auto;
+  font-kerning: auto;
   margin: 0;
   font-size: 2 * $unit;
   line-height: 150%;
-
+  @media #{$tablet} {
+    text-align: justify;
+    font-size: 2.3 * $unit;
+  }
   @media #{$desktop} {
-    font-size: 2.2 * $unit;
+    font-size: 2.5 * $unit;
     line-height: 160%;
+    text-align: justify;
   }
 }
 a,
@@ -128,17 +131,14 @@ a:active {
   }
 }
 section {
-  width: 80%;
   z-index: 1;
-  margin: 8 * $unit auto;
-
+  margin: 3 * $unit auto;
+  margin: 3 * $unit;
   @media #{$tablet} {
-    width: 45%;
-    margin: 10 * $unit auto;
+    margin: 2 * $unit 25 * $unit 20 * $unit 25 * $unit;
   }
   @media #{$desktop} {
-    width: 40%;
-    margin: 6 * $unit auto;
+    margin: 2 * $unit 45 * $unit 20 * $unit 45 * $unit;
   }
 }
 </style>

@@ -46,7 +46,7 @@ article {
     margin: 2 * $unit 0 0 0;
 
     @media #{$desktop} {
-      font-size: 1.9 * $unit;
+      font-size: 2.2 * $unit;
     }
   }
 

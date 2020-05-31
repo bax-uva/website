@@ -27,15 +27,14 @@ export default {
 <style lang="scss">
 nav {
   z-index: 1;
-  width: 80%;
-  margin: auto;
+  margin: 2 * $unit;
   display: flex;
   justify-content: space-between;
   @media #{$tablet} {
-    width: 45%;
+    margin: 2 * $unit 25 * $unit;
   }
   @media #{$desktop} {
-    width: 40%;
+    margin: 2 * $unit 45 * $unit;
   }
 }
 </style>

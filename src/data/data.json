@@ -31,14 +31,14 @@
   {
     "title": "É",
     "link": "https://bax-uva.github.io/loja-E/",
-    "description": "É is an independent publisher in São Paulo, Brazil. This is their catalog website, made with HTML and CSS. Web Design: Bax Uva and Júlia Rocha. Web Development: Bax Uva.",
+    "description": "É is an independent publisher in São Paulo, Brazil. This is their catalog website, made with HTML and CSS. Web Design: Bax Uva and Júlia Rocha. Web Development by Bax Uva.",
     "githubRepo": "loja-E",
     "image": "loja-E.png"
   },
   {
     "title": "Fantasmas",
     "link": "https://bax-uva.github.io/fantasmas/",
-    "description": "Fantasmas is a web experiment, part of and containing Renata Passos' master thesis in Visual Arts. It's a website made with HTML and CSS. Web Design: Renata Passos and Bax Uva. Web Development: Bax Uva. Obs: it's for desktop format only.",
+    "description": "Fantasmas is a web experiment, part of and containing Renata Passos' master thesis in Visual Arts. It's a website made with HTML and CSS. Web Design: Renata Passos and Bax Uva. Web Development by Bax Uva. Obs: it's for desktop format only.",
     "githubRepo": "fantasmas",
     "image": "fantasmas.jpg"
   }
