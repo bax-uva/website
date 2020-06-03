@@ -1,8 +1,8 @@
 <template>
   <nav>
     <NavButton
-      v-for="(section, index) in sections"
-      v-bind:key="index"
+      v-for="section in sections"
+      v-bind:key="section"
       :title="section"
       :activeSection="activeSection"
       @button-title="sendBtnTitle"
