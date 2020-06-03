@@ -22,6 +22,10 @@ export default {
 h2 {
   font-weight: lighter;
   cursor: pointer;
+
+  &:last-child {
+    display: none;
+  }
 }
 .active {
   text-decoration: underline;
