@@ -22,6 +22,7 @@ header {
   }
   h1 {
     margin: 2 * $unit 0 0 2 * $unit;
+    cursor: default;
   }
 }
 </style>
