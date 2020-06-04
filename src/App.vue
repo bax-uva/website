@@ -89,18 +89,12 @@ h1 {
   }
 }
 h2 {
-  font-size: 4.6 * $unit;
-  @media #{$mobileM} {
-    font-size: 5.4 * $unit;
-  }
-  @media #{$mobileL} {
-    font-size: 6.3 * $unit;
-  }
+  font-size: calc(100vw / 8.5);
   @media #{$tablet} {
-    font-size: 5.6 * $unit;
+    font-size: calc(50vw / 8.5);
   }
   @media #{$desktop} {
-    font-size: 6.5 * $unit;
+    font-size: calc(35vw / 8.5);
   }
 }
 
