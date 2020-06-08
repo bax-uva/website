@@ -9,7 +9,7 @@
   {
     "title": "Moige",
     "link": "https://moige-the-oracle.herokuapp.com/",
-    "description": "Moige is a fun oracle that helps you when you don't know what to wear. Each realoading gives you a a final group of items you should wear. It is a Vue Web Application. Design and Web Development by Bax Uva.",
+    "description": "Moige is a fun oracle that helps you when you don't know what to wear. Each reloading gives you a a final group of items you should wear. It is a Vue Web Application. Design and Web Development by Bax Uva.",
     "githubRepo": "moige-the-oracle",
     "image": "moige.png"
   },
