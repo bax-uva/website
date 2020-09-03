@@ -4,8 +4,8 @@
       I'm a Frontend Web Developer based in Berlin.
     </p>
     <p>
-      As a freelancer I develop Web Applications and websites in HTML, CSS,
-      SASS, JavaScript, React.js, Wordpress CMS, Vue.js.
+      As a freelancer I develop Web Applications in HTML, CSS, SASS, JavaScript,
+      React.js, Vue.js and Wordpress CMS.
     </p>
     <p>
       I'm interested in open-source technologies, education, UX, and also work

@@ -1,5 +1,6 @@
 <template>
   <section class="contact">
+    <p>Get in touch with me through:</p>
     <p><a href="mailto:bax.uva@gmail.com">Email</a></p>
     <p>
       <a target="_blank" href="https://www.github.com/bax-uva">Github</a>

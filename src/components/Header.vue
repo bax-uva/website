@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>bax uva</h1>
+    <h1>Frontend Developer</h1>
   </header>
 </template>
 
